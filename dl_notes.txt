@@ -1,0 +1,5 @@
+﻿● Activation function: D ecides whether the neuron “fires” (outputs 1) or not (outputs
+0).
+Mathematically:
+y=f(∑i=1nwixi+--pppl,,,,,,,,,,,)y = f\left(\sum_{i=1}^n w_i x_i + b\right)y=f(i=1∑nwixi+b)
+where fff = activation function (like step, sigmoid, ReLU, etc.).

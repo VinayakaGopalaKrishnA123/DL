@@ -1,0 +1,5 @@
+﻿● Inputs (x₁, x₂, …, xₙ): Features from the dataset.
+● Weights (w₁, w₂, …, wₙ): Importance given to each input.
+● Summation: Multiplies inputs by weights and adds them up →
+sum=∑(xi⋅wi)+b\text{sum} = \sum (x_i \cdot w_i) + bsum=∑(xi⋅wi)+b (where b is
+bias).
