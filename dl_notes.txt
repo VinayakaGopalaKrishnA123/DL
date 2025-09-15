@@ -1,5 +1,5 @@
-﻿● Activation function: D ecides whether the neuron “fires” (outputs 1) or not (outputs
-0).
-Mathematically:
-y=f(∑i=1nwixi+--pppl,,,,,,,,,,,)y = f\left(\sum_{i=1}^n w_i x_i + b\right)y=f(i=1∑nwixi+b)
-where fff = activation function (like step, sigmoid, ReLU, etc.).
+🔹 Example
+Imagine you want a perceptron to decide:
+● Input: Weather (sunny=1, rainy=0), Weekend (yes=1, no=0).
+● Output: Go for a picnic (Yes=1, No=0).
+The perceptron will learn weights for "sunny" and "weekend" to predict picnic plans.
