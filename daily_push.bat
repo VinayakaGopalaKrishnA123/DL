@@ -15,18 +15,15 @@ set /p start=<%offsetfile%
 :: Calculate end line
 set /a end=%start%+4
 
-:: Clear output file before writing
-> %outfile% (
+:: Append next 5 lines from ml_notes.txt into dl_notes.txt
+setlocal enabledelayedexpansion
+set lineNo=0
 
-    setlocal enabledelayedexpansion
-    set lineNo=0
-
-    for /f "usebackq delims=" %%A in ("%notesfile%") do (
-        set /a lineNo+=1
-        if !lineNo! geq %start% if !lineNo! leq %end% echo %%A
-    )
-    endlocal
+for /f "usebackq delims=" %%A in ("%notesfile%") do (
+    set /a lineNo+=1
+    if !lineNo! geq %start% if !lineNo! leq %end% echo %%A >> %outfile%
 )
+endlocal
 
 :: Update offset for next run
 set /a next=%end%+1
