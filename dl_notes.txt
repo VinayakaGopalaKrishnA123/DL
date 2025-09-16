@@ -18,3 +18,8 @@ introduced → leading to deep learning
 When we would use it 
 Real-world scenario (no numeric plugging) 
 Drawback compared to the linear formula 
+--- 
+1. Linear Weighted Sum 
+Formula: 
+z = w_1x_1 + w_2x_2 + \dots + b 
+How it works: 
