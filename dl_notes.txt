@@ -8,3 +8,8 @@ Imagine you want a perceptron to decide:
 ● Input: Weather (sunny=1, rainy=0), Weekend (yes=1, no=0). 
 ● Output: Go for a picnic (Yes=1, No=0). 
 The perceptron will learn weights for "sunny" and "weekend" to predict picnic plans. 
+🔹 Limitations 
+● A single perceptron can only solve linearly separable problems (like AND, OR 
+logic gates). 
+● It cannot solve problems like XOR (non-linear). 
+This limitation is why multi-layer perceptrons (MLPs) (with hidden layers) were 

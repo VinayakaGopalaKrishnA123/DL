@@ -2,15 +2,15 @@
 cd /d D:\daily-commit
 
 :: File paths
-set notesfile=D:\ml_notes.txt
-set outfile=dl_notes.txt
-set offsetfile=offset.txt
+set "notesfile=D:\ml_notes.txt"
+set "outfile=dl_notes.txt"
+set "offsetfile=offset.txt"
 
 :: If offset file doesn’t exist, start from line 1
-if not exist %offsetfile% echo 1 > %offsetfile%
+if not exist "%offsetfile%" echo 1 > "%offsetfile%"
 
 :: Read current offset (line number to start from)
-set /p start=<%offsetfile%
+set /p start=<"%offsetfile%"
 
 :: Calculate end line
 set /a end=%start%+4
@@ -18,23 +18,27 @@ set /a end=%start%+4
 :: Append next 5 lines from ml_notes.txt into dl_notes.txt
 setlocal enabledelayedexpansion
 set lineNo=0
-
 for /f "usebackq delims=" %%A in ("%notesfile%") do (
     set /a lineNo+=1
-    if !lineNo! geq %start% if !lineNo! leq %end% echo %%A >> %outfile%
+    if !lineNo! geq %start% if !lineNo! leq %end% echo %%A >> "%outfile%"
 )
 endlocal
 
 :: Update offset for next run
 set /a next=%end%+1
-echo %next% > %offsetfile%
+echo %next% > "%offsetfile%"
 
 :: Stage all files
 git add -A
 
-:: Commit with timestamp
-set commitmsg=Auto commit - %date% %time%
+:: Commit with timestamp (remove invalid chars)
+for /f "tokens=1-4 delims=/: " %%a in ("%date% %time%") do (
+    set commitmsg=Auto commit - %%a-%%b-%%c %%d
+)
+
 git commit -m "%commitmsg%" 2>nul
 
-:: Push to GitHub
+:: Push to GitHub (ensure credentials cached or SSH used)
 git push origin main
+
+exit
