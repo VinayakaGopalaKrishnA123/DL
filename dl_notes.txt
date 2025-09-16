@@ -23,3 +23,8 @@ Drawback compared to the linear formula
 Formula: 
 z = w_1x_1 + w_2x_2 + \dots + b 
 How it works: 
+Each input is multiplied by a weight , added together, and offset by a bias . 
+When we use it: 
+When each factor contributes independently and proportionally to the decision. 
+Real-world example: 
+Predicting student performance using study hours, attendance rate, and assignment quality — 
