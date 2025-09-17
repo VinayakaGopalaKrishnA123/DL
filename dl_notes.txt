@@ -28,3 +28,8 @@ When we use it:
 When each factor contributes independently and proportionally to the decision. 
 Real-world example: 
 Predicting student performance using study hours, attendance rate, and assignment quality — 
+each adds to the total performance score. 
+Drawback: 
+Linear by itself can’t capture complex non-linear interactions — but in neural networks we 
+solve this by applying non-linear activations after. 
+--- 
