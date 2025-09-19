@@ -38,3 +38,8 @@ Formula:
 z = x_1^{w_1} \times x_2^{w_2} \times \dots 
 How it works: 
 Inputs are multiplied together, often after raising to weights. 
+When we use it: 
+When all inputs must work together and the absence of one ruins the outcome. 
+Real-world example: 
+Modeling team performance where success depends on all departments functioning — if one 
+department fails (value ≈ 0), the whole output drops. 
