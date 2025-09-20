@@ -43,3 +43,8 @@ When all inputs must work together and the absence of one ruins the outcome.
 Real-world example: 
 Modeling team performance where success depends on all departments functioning — if one 
 department fails (value ≈ 0), the whole output drops. 
+Drawback 
+Too harsh — one small or zero input kills the output completely. No partial credit. 
+--- 
+3. Max Function 
+Formula: 
