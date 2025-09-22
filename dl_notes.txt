@@ -48,3 +48,8 @@ Too harsh — one small or zero input kills the output completely. No partial cr
 --- 
 3. Max Function 
 Formula: 
+z = \max(w_1x_1, w_2x_2, \dots) 
+How it works: 
+Only the strongest weighted input is used for the decision. 
+When we use it: 
+When only the most dominant factor matters and others are irrelevant. 
