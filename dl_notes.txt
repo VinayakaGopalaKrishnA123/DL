@@ -53,3 +53,8 @@ How it works:
 Only the strongest weighted input is used for the decision. 
 When we use it: 
 When only the most dominant factor matters and others are irrelevant. 
+Real-world example: 
+Emergency room triage — patient’s most severe symptom determines priority; lesser 
+symptoms are ignored. 
+Drawback: 
+Ignores useful smaller signals — not great for most predictive tasks. 
