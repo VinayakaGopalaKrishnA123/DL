@@ -63,3 +63,8 @@ Ignores useful smaller signals — not great for most predictive tasks.
 Formula: 
 z = w_1x_1 + w_2x_2 + w_{12}x_1x_2 + w_{11}x_1^2 + \dots 
 How it works: 
+Includes original inputs plus their squares, products, etc., to model interactions and curves. 
+When we use it: 
+When there’s a clear interaction between variables or a known curve-shaped relationship. 
+Real-world example: 
+Crop yield prediction — temperature and rainfall not only matter individually but together 
