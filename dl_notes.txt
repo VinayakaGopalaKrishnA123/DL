@@ -73,3 +73,8 @@ Drawback:
 Can blow up with large inputs, and needs more data to avoid overfitting. 
 --- 
 5. Logical Rule (AND / OR) 
+Formula (AND): 
+z = (x_1 > \text{threshold}) \land (x_2 > \text{threshold}) 
+How it works: 
+Outputs 1 only if all conditions are true; otherwise 0. 
+When we use it: 
