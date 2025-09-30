@@ -78,3 +78,8 @@ z = (x_1 > \text{threshold}) \land (x_2 > \text{threshold})
 How it works: 
 Outputs 1 only if all conditions are true; otherwise 0. 
 When we use it: 
+When the task is strictly logical, like password verification. 
+Real-world example: 
+User login — correct username AND correct password needed. 
+Drawback: 
+No smooth learning — one wrong bit means total failure; not differentiable for gradient 
