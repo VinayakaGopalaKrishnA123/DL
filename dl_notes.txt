@@ -93,3 +93,8 @@ functions.
 Learnable: Works well with gradient descent because it’s differentiable everywhere. 
 Fair: Gives all inputs a chance to influence the output — no instant elimination unless 
 weights dictate it. 
+🔹1. What is an Activation Function? 
+It decides the output of a neuron after calculating the weighted sum. 
+● Without it → the network is just linear (like plain regression). 
+● With it → the network can learn non-linear patterns (images, text, etc.). 
+● During training, activation functions also allow gradient descent by providing 
