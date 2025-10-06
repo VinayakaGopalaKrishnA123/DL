@@ -103,3 +103,8 @@ gradients (derivatives) for backpropagation.
 (a) Step Function 
 f(x)={1if x≥00if x<0f(x) = \begin{cases} 1 & \text{if } x \geq 0 \\ 0 & \text{if } x < 0 
 \end{cases}f(x)={10if x≥0if x<0 
+● Oldest activation (used in Perceptron). 
+● Only outputs 0 or 1. 
+● ❌ No gradient → cannot use gradient descent. 
+● Used in early perceptrons, not modern DL 
+(b) Sigmoid Function 
