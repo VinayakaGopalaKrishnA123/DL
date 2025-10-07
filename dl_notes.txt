@@ -113,3 +113,8 @@ f(x)=11+e−xf(x) = \frac{1}{1 + e^{-x}}f(x)=1+e−x1
 ● Good for probabilities. 
 ● Derivative (gradient): 
 f′(x)=f(x)(1−f(x))f'(x) = f(x)(1 - f(x))f′(x)=f(x)(1−f(x)) 
+● ❌ Problem: Vanishing gradient (for very large +x or -x, gradient ≈ 0). 
+(c) Tanh Function 
+f(x)=tanh(x)=ex−e−xex+e−xf(x) = \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}f(x)=tanh(x)=ex+e−xex−e−x 
+● Outputs in (-1,1) (centered around 0 → better than sigmoid). 
+● Gradient: 
