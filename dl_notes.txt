@@ -118,3 +118,8 @@ f′(x)=f(x)(1−f(x))f'(x) = f(x)(1 - f(x))f′(x)=f(x)(1−f(x))
 f(x)=tanh(x)=ex−e−xex+e−xf(x) = \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}f(x)=tanh(x)=ex+e−xex−e−x 
 ● Outputs in (-1,1) (centered around 0 → better than sigmoid). 
 ● Gradient: 
+f′(x)=1−tanh2(x)f'(x) = 1 - \tanh^2(x)f′(x)=1−tanh2(x) 
+● ❌ Still suffers from vanishing gradient at extremes. 
+(d) ReLU (Rectified Linear Unit) 
+f(x)=max(0,x)f(x) = \max(0, x)f(x)=max(0,x) 
+● If input > 0 → output = x 
