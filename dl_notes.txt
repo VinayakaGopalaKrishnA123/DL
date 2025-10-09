@@ -123,3 +123,8 @@ f′(x)=1−tanh2(x)f'(x) = 1 - \tanh^2(x)f′(x)=1−tanh2(x)
 (d) ReLU (Rectified Linear Unit) 
 f(x)=max(0,x)f(x) = \max(0, x)f(x)=max(0,x) 
 ● If input > 0 → output = x 
+● If input ≤ 0 → output = 0 
+● Gradient: 
+f′(x)={1x>00x≤0f'(x) = \begin{cases} 1 & x > 0 \\ 0 & x \leq 0 \end{cases}f′(x)={10x>0x≤0 
+● ✅ Solves vanishing gradient (fast training). 
+● ❌ Problem: Dying ReLU (neurons stuck at 0). 
