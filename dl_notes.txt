@@ -128,3 +128,8 @@ f(x)=max(0,x)f(x) = \max(0, x)f(x)=max(0,x)
 f′(x)={1x>00x≤0f'(x) = \begin{cases} 1 & x > 0 \\ 0 & x \leq 0 \end{cases}f′(x)={10x>0x≤0 
 ● ✅ Solves vanishing gradient (fast training). 
 ● ❌ Problem: Dying ReLU (neurons stuck at 0). 
+(e) Leaky ReLU 
+f(x)={xx>00.01xx≤0f(x) = \begin{cases} x & x > 0 \\ 0.01x & x \leq 0 \end{cases}f(x)={x0.01xx>0x≤0 
+● Small slope for negative side → prevents dying ReLU. 
+● Gradient is never exactly 0. 
+(f) Softmax 
