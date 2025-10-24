@@ -148,3 +148,8 @@ The perceptron will learn weights for "sunny" and "weekend" to predict picnic pl
 ● A single perceptron can only solve linearly separable problems (like AND, OR 
 logic gates). 
 ● It cannot solve problems like XOR (non-linear). 
+This limitation is why multi-layer perceptrons (MLPs) (with hidden layers) were 
+introduced → leading to deep learning 
+.How it works 
+When we would use it 
+Real-world scenario (no numeric plugging) 
