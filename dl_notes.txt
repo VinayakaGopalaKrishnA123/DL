@@ -168,3 +168,8 @@ each adds to the total performance score.
 Drawback: 
 Linear by itself can’t capture complex non-linear interactions — but in neural networks we 
 solve this by applying non-linear activations after. 
+--- 
+2. Multiplication (Product Model) 
+Formula: 
+z = x_1^{w_1} \times x_2^{w_2} \times \dots 
+How it works: 
