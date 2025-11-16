@@ -198,3 +198,8 @@ Real-world example:
 Emergency room triage — patient’s most severe symptom determines priority; lesser 
 symptoms are ignored. 
 Drawback: 
+Ignores useful smaller signals — not great for most predictive tasks. 
+--- 
+4. Polynomial Combination 
+Formula: 
+z = w_1x_1 + w_2x_2 + w_{12}x_1x_2 + w_{11}x_1^2 + \dots 
