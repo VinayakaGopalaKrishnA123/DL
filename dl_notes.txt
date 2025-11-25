@@ -223,3 +223,8 @@ When the task is strictly logical, like password verification.
 Real-world example: 
 User login — correct username AND correct password needed. 
 Drawback: 
+No smooth learning — one wrong bit means total failure; not differentiable for gradient 
+descent. 
+--- 
+Why Linear Weighted Sum Is “Best by Default” 
+General: All the others can be expressed as a special case of the linear model after applying a 
