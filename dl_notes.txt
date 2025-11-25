@@ -228,3 +228,11 @@ descent.
 --- 
 Why Linear Weighted Sum Is “Best by Default” 
 General: All the others can be expressed as a special case of the linear model after applying a 
+transformation to the inputs. 
+Flexible: Can approximate any of the others if needed, by adjusting weights and activation 
+functions. 
+Learnable: Works well with gradient descent because it’s differentiable everywhere. 
+Fair: Gives all inputs a chance to influence the output — no instant elimination unless 
+weights dictate it. 
+🔹1. What is an Activation Function? 
+It decides the output of a neuron after calculating the weighted sum. 
