@@ -273,3 +273,8 @@ f′(x)={1x>00x≤0f'(x) = \begin{cases} 1 & x > 0 \\ 0 & x \leq 0 \end{cases}f�
 f(x)={xx>00.01xx≤0f(x) = \begin{cases} x & x > 0 \\ 0.01x & x \leq 0 \end{cases}f(x)={x0.01xx>0x≤0 
 ● Small slope for negative side → prevents dying ReLU. 
 ● Gradient is never exactly 0. 
+(f) Softmax 
+f(xi)=exi∑jexjf(x_i) = \frac{e^{x_i}}{\sum_j e^{x_j}}f(xi)=∑jexjexi 
+● Used in final layer for multi-class classification. 
+● Converts raw scores → probabilities that sum to 1. 
+🔹3. Gradient Descent with Activation 
