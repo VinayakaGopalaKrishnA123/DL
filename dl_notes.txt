@@ -283,3 +283,8 @@ f(xi)=exi∑jexjf(x_i) = \frac{e^{x_i}}{\sum_j e^{x_j}}f(xi)=∑jexjexi
 ● Example: 
 o For sigmoid: gradient = f(x)(1−f(x))f(x)(1 - f(x))f(x)(1−f(x)) 
 o For ReLU: gradient = 1 (if x>0) or 0 (if x≤0) 
+● This gradient is multiplied with learning rate to update weights. 
+1. Regression Losses (Continuous Outputs) 
+Goal: predict real numbers (like house price, temperature). 
+Here the "distance" between prediction and actual is important. 
+🔸Mean Squared Error (MSE) 
