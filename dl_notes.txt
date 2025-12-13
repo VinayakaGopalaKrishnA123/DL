@@ -278,3 +278,8 @@ f(xi)=exi∑jexjf(x_i) = \frac{e^{x_i}}{\sum_j e^{x_j}}f(xi)=∑jexjexi
 ● Used in final layer for multi-class classification. 
 ● Converts raw scores → probabilities that sum to 1. 
 🔹3. Gradient Descent with Activation 
+● Forward pass: compute neuron output using activation. 
+● Backpropagation: compute derivative of activation to update weights. 
+● Example: 
+o For sigmoid: gradient = f(x)(1−f(x))f(x)(1 - f(x))f(x)(1−f(x)) 
+o For ReLU: gradient = 1 (if x>0) or 0 (if x≤0) 
