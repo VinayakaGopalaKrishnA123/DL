@@ -298,3 +298,8 @@ L=n1∑∣yi−y^i∣
 ● Linear penalty. 
 ● Robust to outliers (since no squaring). 
 ● But not smooth at 0 → gradient-based optimization can be slower. 
+👉Example: Predicting median house prices (where robustness matters). 
+🔸Huber Loss 
+Combines MSE (smooth for small errors) + MAE (robust for big errors). 
+● Best of both worlds. 
+👉Example: Self-driving car steering angle regression. 
