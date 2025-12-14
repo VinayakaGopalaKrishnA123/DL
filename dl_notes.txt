@@ -293,3 +293,8 @@ L=1/n(∑(yi−y^i)2)
 ● Smooth derivative → good for optimization. 
 ● Sensitive to outliers. 
 👉Example: Predicting stock prices, where big mistakes are dangerous. 
+🔸Mean Absolute Error (MAE) 
+L=n1∑∣yi−y^i∣ 
+● Linear penalty. 
+● Robust to outliers (since no squaring). 
+● But not smooth at 0 → gradient-based optimization can be slower. 
