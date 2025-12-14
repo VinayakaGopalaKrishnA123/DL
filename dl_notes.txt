@@ -288,3 +288,8 @@ o For ReLU: gradient = 1 (if x>0) or 0 (if x≤0)
 Goal: predict real numbers (like house price, temperature). 
 Here the "distance" between prediction and actual is important. 
 🔸Mean Squared Error (MSE) 
+L=1/n(∑(yi−y^i)2) 
+● Squared term penalizes large errors more heavily. 
+● Smooth derivative → good for optimization. 
+● Sensitive to outliers. 
+👉Example: Predicting stock prices, where big mistakes are dangerous. 
