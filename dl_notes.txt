@@ -303,3 +303,8 @@ L=n1∑∣yi−y^i∣
 Combines MSE (smooth for small errors) + MAE (robust for big errors). 
 ● Best of both worlds. 
 👉Example: Self-driving car steering angle regression. 
+2. Classification Losses (Categorical Outputs) 
+Goal: predict classes (spam/not spam, dog/cat, etc.). 
+We usually model probabilities. 
+🔸Binary Cross-Entropy (BCE) 
+● 
