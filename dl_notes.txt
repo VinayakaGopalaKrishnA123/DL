@@ -308,3 +308,8 @@ Goal: predict classes (spam/not spam, dog/cat, etc.).
 We usually model probabilities. 
 🔸Binary Cross-Entropy (BCE) 
 ● 
+● For 2-class problems. 
+● Punishes confident wrong predictions a lot. 
+● Naturally works with sigmoid outputs. 
+● 👉Example: Spam classification. 
+🔸Categorical Cross-Entropy (CCE) 
