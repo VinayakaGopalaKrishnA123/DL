@@ -313,3 +313,8 @@ We usually model probabilities.
 ● Naturally works with sigmoid outputs. 
 ● 👉Example: Spam classification. 
 🔸Categorical Cross-Entropy (CCE) 
+● 
+● Multi-class (C classes). 
+● Uses softmax at output. 
+● Focuses on maximizing the probability of the correct class. 
+👉Example: Image classification (dog/cat/car). 
