@@ -318,3 +318,8 @@ We usually model probabilities.
 ● Uses softmax at output. 
 ● Focuses on maximizing the probability of the correct class. 
 👉Example: Image classification (dog/cat/car). 
+🔸KL Divergence (KLD) 
+● 
+● Measures difference between two distributions. 
+● Used when we don’t just care about the label, but also the whole 
+probability distribution. 
