@@ -328,3 +328,8 @@ Backpropagation
 Definition 
 Backpropagation (short for backward propagation of errors) is an algorithm 
 used in training artificial neural networks. It calculates how much each weight 
+in the network contributed to the output error and updates them to minimize 
+the error. 
+It is the backbone of deep learning training. 
+Why Backpropagation? 
+● Neural networks have multiple layers with many parameters (weights, 
