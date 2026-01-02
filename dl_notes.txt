@@ -333,3 +333,8 @@ the error.
 It is the backbone of deep learning training. 
 Why Backpropagation? 
 ● Neural networks have multiple layers with many parameters (weights, 
+biases). 
+● We need a systematic way to adjust these parameters so the model 
+learns. 
+● Backpropagation provides an efficient way to compute gradients for all 
+weights using the chain rule of calculus. 
