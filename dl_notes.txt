@@ -343,3 +343,8 @@ Steps in Backpropagation
 ○ Input data passes through the network layer by layer. 
 ○ The output (prediction) is generated. 
 2. Loss Calculation 
+○ Compare prediction with actual target using a loss function (e.g., 
+MSE, Cross-Entropy). 
+○ Loss measures how wrong the network is. 
+3. Backward Pass (Core Step) 
+○ Compute gradients of the loss w.r.t. output. 
