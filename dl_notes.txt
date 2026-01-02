@@ -338,3 +338,8 @@ biases).
 learns. 
 ● Backpropagation provides an efficient way to compute gradients for all 
 weights using the chain rule of calculus. 
+Steps in Backpropagation 
+1. Forward Pass 
+○ Input data passes through the network layer by layer. 
+○ The output (prediction) is generated. 
+2. Loss Calculation 
