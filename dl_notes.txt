@@ -348,3 +348,8 @@ MSE, Cross-Entropy).
 ○ Loss measures how wrong the network is. 
 3. Backward Pass (Core Step) 
 ○ Compute gradients of the loss w.r.t. output. 
+○ Using chain rule, propagate the error backward layer by layer. 
+○ Find how much each weight contributed to the error. 
+4. Weight Update 
+○ Adjust weights using gradient descent (or variants like Adam, 
+RMSprop 
