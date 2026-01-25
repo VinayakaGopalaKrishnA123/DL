@@ -353,3 +353,7 @@ MSE, Cross-Entropy).
 4. Weight Update 
 ○ Adjust weights using gradient descent (or variants like Adam, 
 RMSprop 
+Limitations 
+● Can suffer from vanishing/exploding gradients in very deep networks. 
+● Needs differentiable activation functions. 
+● Requires lots of data and computation 
